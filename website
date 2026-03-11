@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>My First Webpage</title>
 <style>
-  body { font-family: Arial; background-color: #f0f0f0; text-align: center; }
-  h1 { color: #ff6600; }
-  button { background-color: #008CBA; color: white; padding: 10px; border: none; cursor: pointer; }
+body{
+    font-family: Arial;
+    background-color: lightblue;
+    text-align: center;
+}
+.container{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
 </style>
 </head>
 <body>
-
-<h1>Welcome to My Website</h1>
-<p>Learning HTML and CSS is fun!</p>
-<button>Click Me</button>
-
+<div class="container">
+<h1>My First Webpage</h1>
+<p>Hello! My name is Nagaharitha veluru.</p>
+<p>I am learning HTML and Web Development.</p>
+<p>This is my first webpage project.</p>
+</div>
 </body>
 </html>
