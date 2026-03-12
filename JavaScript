@@ -1,0 +1,47 @@
+/*1. Voting Eligibility*/
+let age = 20;
+if (age >= 18) {
+    console.log("Eligible to vote");
+} else {
+    console.log("Not eligible to vote");
+}
+
+/*2. Number Sign (Positive / Negative / Zero)*/
+let num = -5;
+
+if (num > 0) {
+    console.log("Positive number");
+} else if (num < 0) {
+    console.log("Negative number");
+} else {
+    console.log("Number is zero");
+}
+
+/*even or odd*/
+let number = 7;
+
+if (number % 2 === 0) {
+    console.log("Even number");
+} else {
+    console.log("Odd number");
+}
+
+/*4. Student Grades*/
+let marks = 75;
+
+if (marks >= 80) {
+    console.log("Grade A");
+} else if (marks >= 60) {
+    console.log("Grade B");
+} else {
+    console.log("Grade C");
+}
+
+/*5. Pass / Fail Status*/
+let marks = 40;
+
+if (marks > 33) {
+    console.log("Student Passed");
+} else {
+    console.log("Student Failed");
+}
