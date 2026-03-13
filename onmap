@@ -1,0 +1,25 @@
+/*1. The Doubler*/
+
+let numbers = [1, 2, 3, 4, 5];
+let doubled = numbers.map(num => num * 2);
+console.log(doubled);
+
+/*2. The Shout (Uppercase)*/
+let words = ["hello", "world", "javascript"];
+let upperWords = words.map(word => word.toUpperCase());
+console.log(upperWords);
+
+/*3. The Price Tagget*/
+let prices = [10, 20, 30, 40];
+let taggedPrices = prices.map(price => "$" + price);
+console.log(taggedPrices);
+
+/*Based on filter()*/
+let numbers = [1, 2, 3, 4, 5, 6];
+let evenNumbers = numbers.filter(num => num % 2 === 0);
+console.log(evenNumbers);
+
+/*The Word Length Filter*/
+let words = ["apple", "banana", "grapes", "kiwi", "watermelon"];
+let longWords = words.filter(word => word.length > 5);
+console.log(longWords);
