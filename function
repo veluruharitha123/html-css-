@@ -1,0 +1,42 @@
+/*The "Welcome" Function*/
+function welcome(name) {
+    return "Hello, " + name + "! Welcome!";
+}
+console.log(welcome("John"));
+
+
+/*The Multiplier*/
+
+function multiply(a, b) {
+    return a * b;
+}
+console.log(multiply(5, 3));
+
+
+/*Even/Odd Checker*/
+function isEven(number) {
+    if (number % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+console.log(isEven(10));
+
+
+/*Array Length Finding
+function arrayLength(arr) {
+    return arr.length;
+}
+console.log(arrayLength([1, 2, 3, 4, 5]));
+
+
+/*Freezing" Point Checker*/
+function isFreezing(temp) {
+    if (temp <= 0) {
+        return "Freezing temperature";
+    } else {
+        return "Not freezing";
+    }
+}
+console.log(isFreezing(-5));
